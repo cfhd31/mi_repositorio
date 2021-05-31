@@ -1,0 +1,40 @@
+
+header {
+  grid-area: header;
+  animation-duration: calc(8s / 4);
+  animation-name: aparecer;
+
+  .header__centrado {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+nav {                                         /*MENU */
+  grid-area: nav;
+}
+nav li :hover{
+  background-color: rgb(3, 0, 29);
+}
+
+
+.menu{
+  &--fondo {
+    background-color:  #272727 ;
+  }
+  
+  &--Centrado {
+    text-align: center;
+  }
+}
+
+

@@ -1,0 +1,44 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.publicidad {
+  grid-area: publicidad;
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(255, 255, 255, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.publicidad::before, .publicidad::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.publicidad::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.publicidad::before {
+  left: 0;
+  top: 0;
+}
+.publicidad .publicidad__pista {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.publicidad .publicidad__slide {
+  height: 100px;
+  width: 250px;
+}

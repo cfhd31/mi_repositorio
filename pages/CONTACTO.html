@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js/bootstrap.js"/>
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Ejemplo de Palabras Clave y Programación"><!-- ayuda al buscador de google -->
+    <meta name="keywords"  content="HTML, ASP, JS, META, PALABRAS CLAVE, EJEMPLO">
+    <title>CONTACTO</title>   
+</head>
+
+<body class="container">
+
+    <header>
+        <div class="publicidad">
+            <div class="publicidad__pista">
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="publicidad__slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <script>
+            var mydate=new Date();
+            var year=mydate.getYear();
+            if (year < 1000)
+            year+=1900;
+            var day=mydate.getDay();
+            var month=mydate.getMonth()+1;
+            if (month<10)
+            month="0"+month;
+            var daym=mydate.getDate();
+            if (daym<10)
+            daym="0"+daym;
+            document.write("<small><font color='000000' face='Arial'><b>"+daym+"/"+month+"/"+year+"</b></font></small>")
+        </script>
+
+        <div class="header__centrado">               <!-- LOGO CENTRADO-->
+            <a href="..\Index.html"><img alt="Logo" src="../img/eveD.jpg"  title="Logo Internacional" class="img-fluid"></a>
+        </div>
+    </header>
+
+
+
+
+    
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top menu menu--fondo ">       <!-- MENU-->
+        <button class="navbar-toggler" data-toggle="collapse"  data-bs-toggle="collapse" type="button" data-bs-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+     
+        <div class="collapse navbar-collapse  menu--fondo " id="collapse_target">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../index.html"            class="nav-link ">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="MUNDO.html"      class="nav-link">MUNDO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="DEPORTE.html"    class="nav-link">DEPORTE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ECONOMIA.html"   class="nav-link">ECONOMIA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="TURISMO.html"    class="nav-link">TURISMO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="TECNOLOGIA.html" class="nav-link">TECNOLOGIA</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="clearfix noticia noticia__borde ">                       
+
+        <a href="DEPORTE.html"><h2 class="noticia__titulo noticia__Centrado">Complete los datos para poder contactarnos con usted</h2></a>
+        <form>            
+            <form action="Gracias_enviar.php" method="GET" enctype="application/x-www-form-urlencoded" class="noticia__Centrado"></form>
+            <br>
+
+            <label for="nombre">Nombre:</label>	
+            <input type="Text" name="nombre" id="nombre" maxlength="20" placeholder="Nombre"> 
+            <br>
+        
+            <label for="apellido">Apellido:</label>	
+            <input type="Text" name="apellido" id="apellido" maxlength="20" placeholder="Apellido">
+            <br>
+
+            <label for="email">Email de Contacto</label>	
+            <input type="email" name="email" maxlength="20" placeholder="Email">
+
+            <br>
+
+            <p>Cual es el motivos por el cuando desea contactarse con nosotros?</p>
+            <textarea name="Mensaje" id="Mensaje" cols="40" rows="10"></textarea>
+            
+
+            <p>Acepta términos y condiciones
+                <input type="checkbox" name="acepta" value="1" />
+            </p>
+
+            <input type="reset">
+            <input type="submit">
+            <br>
+        <br>
+        <br>
+    </form>
+    </div>
+
+
+
+
+
+
+    <footer class="container">                           <!-- footer-->
+        <div class="row footer__Fondo">
+            <div class="col-md-4 footer__Centrado">
+                <ul>
+                    <ul> <h4><strong>CONTACTENOS</strong></h4></ul>
+                    <ul> <a href="SOPORTE.html"> Nosotros    </a></ul>  
+                    <ul> <a href="CONTACTO.html">Contacto    </a></ul>  
+                    <ul> <a href="SOPORTE.html"> Privacidad  </a></ul>
+                    <ul> <a href="SOPORTE.html"> Aviso Legal </a></ul>
+                </ul>
+            </div>
+            <div class="col-md-4 footer__Centrado">
+                <ul> <h4>REDES SOCIALES</h4></ul>
+                <ul>
+                    <a href="https://www.youtube.com/">    <img src="../img/Youtube.png"      alt="Youtube"  title="Youtube"></a>
+                    <a href="https://web.whatsapp.com/">   <img src="../img/Whatsapp.png"     alt="Whatsapp" title="twiter"> </a> 
+                    <a href="https://www.facebook.com/">   <img src="../img/facebook.png"     alt="Facebook" title="twiter"> </a>
+                    <a href="https://twitter.com/?lang=es"><img src="../img/twitter.png"      alt="twiter"   title="twiter"> </a>
+                </ul> 
+            </div>
+            <div class="col-md-4 footer__Centrado">
+                <ul>
+                    <ul> <h4>PAG. RELACIONADAS </h4></ul>
+                    <ul> <a href="SOPORTE.html"> Infonoticia       </a></ul>  
+                    <ul> <a href="SOPORTE.html"> Todo Noticia      </a></ul>  
+                    <ul> <a href="SOPORTE.html"> C5N               </a></ul>
+                    <ul> <a href="SOPORTE.html"> America           </a></ul>
+                </ul>
+            </div>
+        </div>
+    </footer>
+     <br>
+    <hr>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>

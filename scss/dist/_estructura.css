@@ -1,0 +1,45 @@
+#superior {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header header header header header" "nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav  " "noti1  noti1  noti1  noti1  noti1  noti1  noti1  noti2  noti2  noti2  noti2  noti2  publicidad" "noti1  noti1  noti1  noti1  noti1  noti1  noti1  noti3  noti3  noti3  noti3  noti3  publicidad" "noti4  noti4  noti4  noti4  noti5  noti5  noti5  noti5  noti6  noti6  noti6  noti6  publicidad" "noti7  noti7  noti7  noti8  noti8  noti8  noti9  noti9  noti9  noti10 noti10 noti10 publicidad" "footer footer footer footer footer footer footer footer footer footer footer footer footer ";
+  grid-template-rows: auto 50px auto auto auto auto auto;
+  /* espacio que ocupa en filas*/
+  grid-template-columns: 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% 7.2% auto;
+  /* espacio que ocupa*/
+  grid-row-gap: 10px;
+  /* espacio entre fila */
+  grid-column-gap: 5px;
+  /* espacio entre columnas */
+  height: fit-content;
+  /* que ocupe toda la pag */
+  margin: 0;
+  align-items: stretch;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #superior {
+    grid-template-areas: "publicidad publicidad" "header header" "nav nav " "noti1 noti1" "noti2 noti3" "noti4 noti5" "noti6  noti7" "noti8  noti9" "noti10 noti10 " "footer footer ";
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    /* espacio que ocupa en filas*/
+    grid-template-columns: auto auto;
+    /* espacio que ocupa*/
+    grid-row-gap: 10px;
+    /* espacio entre fila */
+    grid-column-gap: 5px;
+    /* espacio entre columnas */
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  #superior {
+    grid-template-areas: "publicidad" "header" "nav  " "noti1 " "noti2 " "noti3 " "noti4  " "noti5  " "noti6 " "noti7 " "noti8 " "noti9 " "noti10 " "footer ";
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    /* espacio que ocupa en filas*/
+    grid-template-columns: auto;
+    /* espacio que ocupa*/
+    grid-row-gap: 10px;
+    /* espacio entre fila */
+    grid-column-gap: 5px;
+    /* espacio entre columnas */
+    margin: 0;
+  }
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*Creamos el bucle para usar los valores del mapa*/
+.fondoBlanco {
+  background-color: #ffffff;
+}
+
+.fondoNegro {
+  background-color: #0e0e0e;
+}
+
+.fondoGris {
+  background-color: #5f5f5f;
+}
+
+.fondoAzul {
+  background-color: #2600ff;
+}
+
+.fondoCeleste {
+  background-color: #7cebff;
+}
+
+.fondoNaranja {
+  background-color: #ff7300;
+}
+
+.fondoVerde {
+  background-color: #15e230;
+}
+
+.fondoAmarillo {
+  background-color: #e5ff00;
+}
+
+.fondoRojo {
+  background-color: #ff0000;
+}
+
+.puma-icon {
+  Background-image: url("/images/puma.png");
+}
+
+.sea-slug-icon {
+  Background-image: url("/images/sea-slug.png");
+}
+
+.egret-icon {
+  Background-image: url("/images/egret.png");
+}
+
+/*animal tendrá los valores de cada uno */

@@ -1,0 +1,20 @@
+
+footer {
+    grid-area: footer; 
+    width: 100%;
+    a {
+        color: rgb(201, 201, 201);
+        text-decoration:menu;
+        font-weight: bold;
+    }
+    .footer__Fondo {
+
+        background-color: #272727;
+        color: rgb(255, 255, 255);
+    }
+    .footer__Centrado {
+        text-align: center;
+    }
+
+}
+

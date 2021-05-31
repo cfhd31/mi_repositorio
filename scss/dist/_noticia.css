@@ -1,0 +1,70 @@
+.noti1 {
+  grid-area: noti 1;
+  text-align: center;
+}
+
+.noti2 {
+  grid-area: noti 2;
+  text-align: center;
+}
+
+.noti3 {
+  grid-area: noti 3;
+  text-align: center;
+}
+
+.noti4 {
+  grid-area: noti 4;
+  text-align: center;
+}
+
+.noti5 {
+  grid-area: noti 5;
+  text-align: center;
+}
+
+.noti6 {
+  grid-area: noti 6;
+  text-align: center;
+}
+
+.noti7 {
+  grid-area: noti 7;
+  text-align: center;
+}
+
+.noti8 {
+  grid-area: noti 8;
+  text-align: center;
+}
+
+.noti9 {
+  grid-area: noti 9;
+  text-align: center;
+}
+
+.noti10 {
+  grid-area: noti 10;
+  text-align: center;
+}
+
+.noticia__borde {
+  padding: 0.25rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.noticia__titulo {
+  background-color: #e2e2e2;
+}
+.noticia__Centrado {
+  text-align: center;
+  font-weight: 600;
+}
+
+nav ul li {
+  border-right: 1px solid #585858;
+}

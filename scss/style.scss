@@ -1,0 +1,47 @@
+$PaddingsTipo: (
+  pa: padding,
+  pt: padding-top,
+  pr: padding-right,
+  pb: padding-bottom,
+  pl: padding-left
+);
+$espacio: (
+  0: 0px,
+  5: 5px,
+  10: 10px
+);
+@each $classType, $type in $PaddingsTipo {
+    @each $classSize, $size in $espacio {
+        .#{$classType}-#{$classSize} {
+            #{$type}: #{$size};
+        }
+    }
+}
+
+
+
+
+
+@import "_header";
+@import "_footer";
+@import "_body";
+@import "_estructura";
+@import "_publicidad";
+@import "_bootstrap";
+
+
+* {
+    font-family:'Mukta', sans-serif;
+    margin: 0px;
+}
+
+a{
+    color: black;
+    text-decoration:menu;
+    font-weight: bold;
+    font-size: 20px;
+}
+a :hover{
+    color: rgb(38, 0, 255);
+    
+}
