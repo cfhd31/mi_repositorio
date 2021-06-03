@@ -7,24 +7,26 @@
 }
 .noticia{
 &__borde {
-  padding: 0.25rem;
-  background-color: rgb(243, 243, 243);
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+
   max-width: 100%;
   height: auto;
   margin-top: 10px;
- 
-  
+}
+&__borde1 {
+border-left: 1px solid #dee2e6;
+
 }
 &__titulo {
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(255, 255, 255);
 }
 
 &__Centrado {
   text-align: center;
   font-weight: 600;
 }
+}
+.foto {
+  
 }
 nav ul li {
 border-right: 1px solid rgb(88, 88, 88);}

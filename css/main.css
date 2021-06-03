@@ -124,16 +124,15 @@ footer {
   text-align: center; }
 
 .noticia__borde {
-  padding: 0.25rem;
-  background-color: #f3f3f3;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
   margin-top: 10px; }
 
+.noticia__borde1 {
+  border-left: 1px solid #dee2e6; }
+
 .noticia__titulo {
-  background-color: #e2e2e2; }
+  background-color: white; }
 
 .noticia__Centrado {
   text-align: center;
