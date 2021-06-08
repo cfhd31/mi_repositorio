@@ -1,5 +1,6 @@
 
 footer {
+    
     grid-area: footer; 
     width: 100%;
     a {
@@ -8,13 +9,17 @@ footer {
         font-weight: bold;
     }
     .footer__Fondo {
-
+        
         background-color: #272727;
         color: rgb(255, 255, 255);
     }
     .footer__Centrado {
         text-align: center;
+        margin-top: 15px;
     }
 
 }
 
+.espacioArrriba {
+    margin-top: 10px;
+}
