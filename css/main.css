@@ -7564,7 +7564,11 @@ footer {
     background-color: #272727;
     color: white; }
   footer .footer__Centrado {
-    text-align: center; }
+    text-align: center;
+    margin-top: 15px; }
+
+.espacioArrriba {
+  margin-top: 10px; }
 
 .noti1 {
   grid-area: noti 1;
@@ -7730,7 +7734,7 @@ nav ul li {
 
 .contenedorNoticia .imagenes {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover; }
 
 .espacio {
@@ -7745,6 +7749,18 @@ nav ul li {
 
 .menuEspacio {
   padding-left: 10px; }
+
+.bordeNoticia {
+  padding-bottom: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  border-bottom: 1px solid #d9d9d9; }
+
+.importante {
+  background-color: #b30000; }
+
+.importante2 {
+  margin-left: 20px;
+  margin-top: 15px; }
 
 #superior {
   display: grid;
@@ -7836,4 +7852,7 @@ a {
   font-size: 20px; }
 
 a :hover {
-  color: #2600ff; }
+  color: #0004ff; }
+
+.card a :hover {
+  color: #c7c7c7; }
