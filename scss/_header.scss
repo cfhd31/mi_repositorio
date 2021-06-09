@@ -13,7 +13,7 @@ header {
 
 @keyframes aparecer {
     0% {
-      opacity: 0;
+      opacity: 0.3;
     }
     100% {
       opacity: 1;
@@ -25,7 +25,10 @@ nav {                                         /*MENU */
   grid-area: nav;
 }
 nav li :hover{
-  background-color: rgb(3, 0, 29);
+  background-color: rgb(228, 228, 228);
+  color: black;
+  animation-duration: calc(8s / 8);
+  animation-name: aparecer;
 }
 
 // nav ul li {

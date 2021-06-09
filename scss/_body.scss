@@ -132,6 +132,18 @@ url("../img/homer.gif");
   .card {
     height: 100%;
   }
+  .btn{
+    background-color: #eae6e68f;
+    padding: 5px 20px;
+  &:hover{
+  background-color: #6464648f;
+  padding: 5px 20px;
+  color: white;
+}
+}
+h1{
+  font-size: 2rem;
+  }
   &__incluido{
     position: absolute;
     right: 0;

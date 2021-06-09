@@ -7536,7 +7536,7 @@ header {
 
 @keyframes aparecer {
   0% {
-    opacity: 0; }
+    opacity: 0.3; }
   100% {
     opacity: 1; } }
 
@@ -7545,7 +7545,10 @@ nav {
   grid-area: nav; }
 
 nav li :hover {
-  background-color: #03001d; }
+  background-color: #e4e4e4;
+  color: black;
+  animation-duration: calc(8s / 8);
+  animation-name: aparecer; }
 
 .menu--fondo {
   background-color: #272727; }
@@ -7727,6 +7730,17 @@ footer {
 
 .contenedorNoticia .card {
   height: 100%; }
+
+.contenedorNoticia .btn {
+  background-color: #eae6e68f;
+  padding: 5px 20px; }
+  .contenedorNoticia .btn:hover {
+    background-color: #6464648f;
+    padding: 5px 20px;
+    color: white; }
+
+.contenedorNoticia h1, .contenedorNoticia .h1 {
+  font-size: 2rem; }
 
 .contenedorNoticia__incluido {
   position: absolute;
