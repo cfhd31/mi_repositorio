@@ -7580,9 +7580,9 @@ footer {
   footer .footer__Centrado {
     text-align: center;
     margin-top: 15px; }
-
-.espacioArrriba {
-  margin-top: 10px; }
+  footer .espacioArrriba {
+    margin-top: 10px;
+    font-weight: bold; }
 
 .noti1 {
   grid-area: noti 1;
@@ -7763,13 +7763,6 @@ footer {
   padding-bottom: 1.5625rem;
   margin-bottom: 1.5625rem;
   border-bottom: 1px solid #d9d9d9; }
-
-.importante {
-  background-color: #b30000; }
-
-.importante2 {
-  margin-left: 20px;
-  margin-top: 15px; }
 
 #superior {
   display: grid;
