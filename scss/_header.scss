@@ -20,12 +20,19 @@ header {
     }
 }
 
+
 nav {                                         /*MENU */
   grid-area: nav;
 }
 nav li :hover{
   background-color: rgb(3, 0, 29);
 }
+
+// nav ul li {
+//   border-right: 1px solid rgb(88, 88, 88);
+  
+// }
+
 
 
 .menu{
@@ -37,5 +44,20 @@ nav li :hover{
     text-align: center;
   }
 }
+.imagenLogo{
+height: 100px;
 
+  }
 
+.menuMin{
+  padding: 0.3rem 0.5rem;
+  }
+.menuEspacio{
+  padding-left: 10px;
+}
+
+.imagenLogo2{
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 15px;
+    }
