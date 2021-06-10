@@ -7778,6 +7778,9 @@ footer {
   margin-bottom: 1.5625rem;
   border-bottom: 1px solid #d9d9d9; }
 
+.esp {
+  margin-bottom: 10px; }
+
 #superior {
   display: grid;
   grid-template-areas: "header header header header header header header header header header header header header" "nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav  " "noti1  noti1  noti1  noti1  noti1  noti1  noti1  noti2  noti2  noti2  noti2  noti2  publicidad" "noti1  noti1  noti1  noti1  noti1  noti1  noti1  noti3  noti3  noti3  noti3  noti3  publicidad" "noti4  noti4  noti4  noti4  noti5  noti5  noti5  noti5  noti6  noti6  noti6  noti6  publicidad" "noti7  noti7  noti7  noti8  noti8  noti8  noti9  noti9  noti9  noti10 noti10 noti10 publicidad" "footer footer footer footer footer footer footer footer footer footer footer footer footer ";
