@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <link rel="stylesheet" href="js/bootstrap.js"/>
-    <link rel="stylesheet" href="js/calcu.js"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <meta name="description" content="Las ultimas noticias destacadas">
     <meta name="keywords"  content="noticia, tecnologia, mundo, internacional, deportes, turismo, economia">   <!-- ayuda al buscador de google -->
+    <link  rel="icon"   href="img/ee.png" type="image/png"/>
     <title>INICIO</title>
 </head>
 
@@ -72,8 +72,8 @@
     </header>
    
     <nav class="navbar navbar-expand-lg navbar-light sticky-top menu menu--fondo ">       <!-- MENU-->
-        <div class="header__centrado">               <!-- LOGO CENTRADO-->
-            <a href="index.html"><img alt="Logo" src="img/eve1.jpg"  title="Logo" class=" imagenLogo2"></a>
+        <div class="header__centrado">                     <!-- Logo-->
+            <a href="index.html"><img alt="Logo" src="img/eve0.png"  title="Logo" class=" imagenLogo2"></a>
         </div>
         
         <button class="navbar-toggler espacio" data-toggle="collapse"  data-bs-toggle="collapse" type="button" data-bs-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,7 +104,7 @@
         </div>
     </nav>
 
-    <div class="carrusel contenedorNoticia">                                                   <!-- Carrusel-->
+    <div class="carrusel ">                                                   <!-- Carrusel-->
         <div id="carouselExampleDark" class="carousel carousel-dark slide carru " data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -149,35 +149,31 @@
     </div>
     <br>
 
-    <div class="noticia">
-    <div class="">                              <!-- noticia 1,2,3-->
+    <div class="noticia">                             <!-- noticia 1,2,3-->
         <div class="row">  
-            <div class="col-md-8 noticia__borde  ">
-                <section  class="container-fluid ">
+            <div class="col-md-8 noticia__borde">
+                <section  class="container-fluid">
                     <a href="pages/MUNDO.html"><h3 class="noticia__titulo noticia__Centrado">Tensión entre China y Taiwán luego de que portaviones chino entrara en el mar de China Meridional</h3></a>
                     <p> El sábado, un portaviones chino entró por primera vez en el mar de China Meridional. 
                     Este evento aumentó la tensión entre China y Taiwán por sus actividades militares, 
                     y en el siguiente video te damos los detalles. 
                     Taiwán condenó una “seria provocación” de China después de que sus aviones 
                     militares penetraran en la zona de defensa aérea de la isla durante dos días.  </p>
-                    <img src="https://3.bp.blogspot.com/-sfRI9ApWpsU/XacPsMSebvI/AAAAAAADCBU/KFwTRcwKcqcdlYk_pN29X_sjaXvh2UznACLcBGAsYHQ/s1600/zDRASS%2BSubmarine%2BRescue%2BSystem%2B3D-2.jpg" class="ajustaImagen" alt="estampida">
+                    <img src="https://3.bp.blogspot.com/-sfRI9ApWpsU/XacPsMSebvI/AAAAAAADCBU/KFwTRcwKcqcdlYk_pN29X_sjaXvh2UznACLcBGAsYHQ/s1600/zDRASS%2BSubmarine%2BRescue%2BSystem%2B3D-2.jpg" class="ajustaImagen" alt="portavion chino">
                     
                 </section>
             </div>
             
             <div class="col-md-4">
                 <div class="row">
-                    <br>
-                    <div class="col-12 noticia__borde bordeNoticia ">
+                    <div class="col-12 noticia__borde bordeNoticia">
                         <section  class="container-fluid">                    <!-- NOTICIA IZQUIERDA-->                
                             <img src="https://okdiario.com/img/2021/04/30/estampida-en-israel.jpg" class="ajustaImagen" alt="estampida">
                             <a href="pages/TECNOLOGIA.html"><h4 class="noticia__Centrado">Docenas de muertos en evento religioso en Israel</h4></a>  
                         </section>
                     </div>
-                  
-                    
-                    <br>
-                    <div class="col-12 noticia__borde ">
+             
+                    <div class="col-12 noticia__borde">
                         <section  class="container-fluid">                                         
                             <img src="https://www.techidence.com/wp-content/uploads/2020/06/ps5.jpg" class="ajustaImagen" alt="Ps5">
                             <a href="pages/TECNOLOGIA.html"><h4 class="noticia__Centrado">Sony lleva vendidas 7,8 millones de PlayStation 5</h4></a> 
@@ -190,23 +186,24 @@
     <hr>
     
     <div class="clearfix noticia noticia__borde">                        <!-- noticia imagen de costado-->
-        <img src="https://okdiario.com/img/2021/04/30/estampida-en-israel.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid " alt="estampida">
-        <a href="pages/MUNDO.html"><h4 class="noticia__titulo noticia__Centrado">Docenas de muertos deja una estampida en evento religioso en Israel</h4></a>
-        <p>As you can see the paragraphs gracefully wrap around the floated image. Now imagine how 
-            this would look with some actual content in here, rather than just this boring placeholder 
-            text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RH3NT2HXDRFM3LWHEGFZKBDIUI.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid " alt="soja">
+        <a href="pages/ECONOMIA.html"><h4 class="noticia__titulo noticia__Centrado">El precio internacional de la soja cayó más de un 8% y se aleja del pico de USD 600 por tonelada que se registró en el último mes</h4></a>
+        <p>En el mercado de Chicago, la posición julio bajó USD 43,63 y cotizó a USD 488,60 la tonelada, como consecuencia de las mejoras climáticas en los Estados Unidos. También hubo fuertes bajas en maíz y trigo
         </p>
-        <p>And yet, here you are, still persevering in reading this placeholder text, hoping for 
-            some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, 
-            there's none of that here. 
+        <p>Luego de superar los 600 dólares la tonelada el pasado 12 de mayo, el precio internacional de la soja registró hoy en el mercado de Chicago una baja de USD 43,63 en los contratos con vencimiento en julio próximo y cotizó a USD 488,60 la tonelada, un 8,2% menos que en la rueda de negocios de ayer.
+        </p>
+        <p>Según los operadores del mercado, el precio de la soja sufre los efectos de la mejora climática en los Estados Unidos, donde se esperan lluvias en el Medio Oeste productivo del país del norte y temperaturas bajas, que ayudarían a mejorar la condición de la campaña 2021/22.
+        </p>
+        <p>Una situación que además impulsó la caída de casi 16 dólares del maíz, cuyo contrato con vencimiento en julio cotizó a USD 249,20 la tonelada. En el rubro de los cereales, por último, el trigo cayó USD 8,73 y la posición julio se ubicó en USD 234,79 la tonelada, por los efectos de las bajas del maíz y la soja, y también por un aumento en las exportaciones de trigo de Rusia, Ucrania y Kazajstán en 2021/22 que mostró una encuesta de Reuters.
         </p>
     </div>
     <hr>
-                           
+     
+    <div class="contenedorNoticia">
         <div class="row">                                   <!-- 2 noticia -->
             <div class=" col-md-6 esp">
                 <div class="card">
-                    <a href="pages/TECNOLOGIA.html" class="">
+                    <a href="pages/TECNOLOGIA.html">
                         <img class="img-fluid" src="https://www.techidence.com/wp-content/uploads/2020/06/ps5.jpg" alt="ps5">
                         <div class="contenedorNoticia__incluido">
                             <h4 class="noticia__Centrado">Sony lleva vendidas 7,8 millones de PlayStation 5</h4>
@@ -214,12 +211,11 @@
                     </a>
                 </div>
             </div>
-
             
             <div class=" col-md-6 esp">
                 <div class="card">
-                    <a href="pages/DEPORTE.html" class="">
-                        <img class="img-fluid" src="https://i.pinimg.com/originals/73/ab/52/73ab529a5d5bc2dde566364e8d076423.jpg" alt="Bologna">
+                    <a href="pages/DEPORTE.html">
+                        <img class="img-fluid" src="https://i.pinimg.com/originals/73/ab/52/73ab529a5d5bc2dde566364e8d076423.jpg" alt="boca">
                         <div class="contenedorNoticia__incluido">
                             <h4 class=" noticia__Centrado ">Boca sufrio una nueva baja por coronavirus</h4>
                         </div>
@@ -227,13 +223,15 @@
                 </div>
             </div>   
         </div>
+    </div>
+
         <hr>
 
-        <div class="contenedorNoticia">       <!-- 3 noticia -->
+        <div class="contenedorNoticia">                         <!-- 3 noticia -->
             <div class="row">                                   
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/TECNOLOGIA.html" class="">
+                        <a href="pages/TECNOLOGIA.html">
                             <img class="imagenes" src="https://rec-end.elnuevodia.com/images/tn/0/204/1200/801/900/447/2015/12/28/universal1.jpg" alt="Universal">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">Cómo será el nuevo universo de Universal Studios en 2021</h4>
@@ -244,7 +242,7 @@
 
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/DEPORTE.html" class="">
+                        <a href="pages/DEPORTE.html">
                             <img class="imagenes" src="https://staticprd.minuto30.com/wp-content/uploads/2021/05/disturbios-colombia.jpg" alt="protesta">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">La oposición piden a Iván Duque parar la violencia</h4>
@@ -255,7 +253,7 @@
                 
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/TECNOLOGIA.html" class="">
+                        <a href="pages/TECNOLOGIA.html">
                             <img class="imagenes" src="https://resizer.iproimg.com/unsafe/880x/https://assets.iproup.com/assets/jpg/2019/10/6425.jpg?6.3.1" alt="Criptomoneda">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">Los argentinos se fanatizaron con las criptomonedas </h4>
@@ -271,8 +269,8 @@
             <div class="row">                                   
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/MUNDO.html" class="">
-                            <img class="imagenes" src="https://www.eltiempo.com/files/image_640_428/uploads/2021/04/04/606a889282203.jpeg" alt="Universal">
+                        <a href="pages/MUNDO.html">
+                            <img class="imagenes" src="https://www.eltiempo.com/files/image_640_428/uploads/2021/04/04/606a889282203.jpeg" alt="Papa Francisco">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">Francisco pidió que sea respetado el "derecho a manifestarse pacíficamente"</h4>
                             </div>
@@ -282,8 +280,8 @@
 
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/TECNOLOGIA.html" class="">
-                            <img class="imagenes" src="https://www.passporthealthglobal.com/wp-content/uploads/2019/03/PIRAMIDES-DE-EGIPTO.jpg" alt="protesta">
+                        <a href="pages/TECNOLOGIA.html">
+                            <img class="imagenes" src="https://www.passporthealthglobal.com/wp-content/uploads/2019/03/PIRAMIDES-DE-EGIPTO.jpg" alt="Egipto">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">Misterio revelado: descubren quiénes construyeron las pirámides de Egipto</h4>
                             </div>
@@ -293,8 +291,8 @@
                 
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/ECONOMIA.html" class="">
-                            <img class="imagenes" src="https://cdni.rt.com/actualidad/public_images/2019.09/article/r/1104/90/jpeg/5d92468259bf5b058528d5c3.jpg" alt="Criptomoneda">
+                        <a href="pages/ECONOMIA.html">
+                            <img class="imagenes" src="https://cdni.rt.com/actualidad/public_images/2019.09/article/r/1104/90/jpeg/5d92468259bf5b058528d5c3.jpg" alt="pobreza Argentina">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">El mapa de la pobreza en la Argentina: el drama sin fin que afecta a 7 millones de niños</h4>
                             </div>
@@ -309,10 +307,10 @@
             <div class="row">                                   
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/TECNOLOGIA.html" class="">
+                        <a href="pages/TECNOLOGIA.html">
                             <img class="imagenes" src="http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/04/james_webb_space_telescope_s_primary_mirror_unfolded/21910520-1-eng-GB/James_Webb_Space_Telescope_s_primary_mirror_unfolded_pillars.jpg" alt="telescopio">
                             <div class="contenedorNoticia__incluido">
-                                <h4 class="">Un nuevo ojo en el espacio"</h4>
+                                <h4 class="">Un nuevo ojo en el espacio</h4>
                             </div>
                         </a>
                     </div>
@@ -320,8 +318,8 @@
 
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/TECNOLOGIA.html" class="">
-                            <img class="imagenes" src="https://www.passporthealthglobal.com/wp-content/uploads/2019/03/PIRAMIDES-DE-EGIPTO.jpg" alt="protesta">
+                        <a href="pages/TECNOLOGIA.html">
+                            <img class="imagenes" src="https://www.passporthealthglobal.com/wp-content/uploads/2019/03/PIRAMIDES-DE-EGIPTO.jpg" alt="Egipto">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">Misterio revelado: descubren quiénes construyeron las pirámides de Egipto</h4>
                             </div>
@@ -331,7 +329,7 @@
                 
                 <div class="col-md-4 esp">
                     <div class="card">
-                        <a href="pages/ECONOMIA.html" class="">
+                        <a href="pages/ECONOMIA.html">
                             <img class="imagenes" src="https://pbs.twimg.com/media/Dg-nf5iXUAMyzZs.jpg" alt="Merlo">
                             <div class="contenedorNoticia__incluido">
                                 <h4 class="">Cómo es Villa de Merlo, la ciudad que ofrece turismo seguro</h4>
@@ -395,16 +393,14 @@
     <footer class="container">                           <!-- footer-->
         <div class="row footer__Fondo">
             <div class="col-md-4 footer__Centrado">
-                <ul>
-                    <ul> <h4 class="espacioArrriba">CONTACTENOS</h4></ul>
-                    <ul> <a href="pages/404.html"> Nosotros    </a></ul>  
-                    <ul> <a href="pages/CONTACTO.html">Contacto</a></ul>  
-                    <ul> <a href="pages/404.html"> Privacidad  </a></ul>
-                    <ul> <a href="pages/404.html"> Aviso Legal </a></ul>
-                </ul>
+                <ul><h5 class="espacioArrriba">  CONTACTENOS  </h5></ul>
+                <ul><a href="pages/404.html">     Nosotros     </a></ul>  
+                <ul><a href="pages/CONTACTO.html">Contacto     </a></ul>  
+                <ul><a href="pages/404.html">     Privacidad   </a></ul>
+                <ul><a href="pages/404.html">     Aviso Legal  </a></ul>
             </div>
             <div class="col-md-4 footer__Centrado">
-                <ul> <h4 class="espacioArrriba">REDES SOCIALES</h4></ul>
+                <ul><h5 class="espacioArrriba">REDES SOCIALES</h5></ul>
                 <ul>
                     <a href="https://www.youtube.com/">    <img src="img/Youtube.png"      alt="Youtube"  title="Youtube"></a>               
                     <a href="https://web.whatsapp.com/">   <img src="img/Whatsapp.png"     alt="Whatsapp" title="twiter"> </a>                    
@@ -413,19 +409,14 @@
                 </ul> 
             </div>
             <div class="col-md-4 footer__Centrado">
-                <ul>
-                    <ul> <h4 class="espacioArrriba">PAG. RELACIONADAS </h4></ul>
-                    <ul> <a href="pages/404.html"> Infonoticia  </a></ul>  
-                    <ul> <a href="pages/404.html"> Todo Noticia </a></ul>  
-                    <ul> <a href="pages/404.html"> C5N          </a></ul>
-                    <ul> <a href="pages/404.html"> America      </a></ul>
-                </ul>
+                <ul><h5 class="espacioArrriba">PAG. RELACIONADAS </h5></ul>
+                <ul><a href="pages/404.html">   Infonoticia       </a></ul>  
+                <ul><a href="pages/404.html">   Todo Noticia      </a></ul>  
+                <ul><a href="pages/404.html">   C5N               </a></ul>
+                <ul><a href="pages/404.html">   America           </a></ul>
             </div>
         </div>
     </footer>
-     <br>
-    <hr>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
