@@ -1,6 +1,5 @@
 
 header {
-  grid-area: header;
   animation-duration: calc(8s / 4);
   animation-name: aparecer;
 
@@ -20,23 +19,33 @@ header {
     }
 }
 
-
 nav {                                         /*MENU */
-  grid-area: nav;
+
+  .espacio{
+    margin-left: 10px;
+    margin-bottom: 2px;
+  }
+  .espacio:focus{
+    box-shadow: 0 0 0 0.05rem;
+  }
+  li :hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+    animation-duration: calc(8s / 8);
+    animation-name: aparecer;
+  }
+  .imagenLogo2{
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+  .menuEspacio{
+    padding-left: 10px;
+  }
+  .menuMin{
+    padding: 0.3rem 0.5rem;
+  }
 }
-nav li :hover{
-  background-color: rgb(228, 228, 228);
-  color: black;
-  animation-duration: calc(8s / 8);
-  animation-name: aparecer;
-}
-
-// nav ul li {
-//   border-right: 1px solid rgb(88, 88, 88);
-  
-// }
-
-
 
 .menu{
   &--fondo {
@@ -47,20 +56,3 @@ nav li :hover{
     text-align: center;
   }
 }
-.imagenLogo{
-height: 100px;
-
-  }
-
-.menuMin{
-  padding: 0.3rem 0.5rem;
-  }
-.menuEspacio{
-  padding-left: 10px;
-}
-
-.imagenLogo2{
-  height: 30px;
-  margin-right: 10px;
-  margin-left: 15px;
-    }
