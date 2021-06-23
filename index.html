@@ -103,7 +103,7 @@
         </div>
     </nav>
 
-    <div class="carrusel ">                                                   <!-- Carrusel-->
+    <div class="carrusel d-none d-md-block">                                             <!-- Carrusel desaparece en md-->
         <div id="carouselExampleDark" class="carousel carousel-dark slide carru " data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -149,30 +149,31 @@
     <br>
 
     <div class="noticia">                             <!-- noticia 1,2,3-->
-        <div class="row">  
-            <div class="col-md-8 noticia__bordePrincipal">
-                <section  class="container-fluid">
-                    <a href="pages/MUNDO.html"><h3 class="noticia__titulo noticia__Centrado">Tensión entre China y Taiwán luego de que portaviones chino entrara en el mar de China Meridional</h3></a>
-                    <p> El sábado, un portaviones chino entró por primera vez en el mar de China Meridional. 
-                    Este evento aumentó la tensión entre China y Taiwán por sus actividades militares, 
-                    y en el siguiente video te damos los detalles. 
-                    Taiwán condenó una “seria provocación” de China después de que sus aviones 
-                    militares penetraran la zona de defensa aérea de la isla durante dos días.  </p>
-                    <img src="https://3.bp.blogspot.com/-sfRI9ApWpsU/XacPsMSebvI/AAAAAAADCBU/KFwTRcwKcqcdlYk_pN29X_sjaXvh2UznACLcBGAsYHQ/s1600/zDRASS%2BSubmarine%2BRescue%2BSystem%2B3D-2.jpg" class="ajustaImagen" alt="portavion chino">
-            
+        <div class="row bordeDesaparece">  
+            <div class="col-md-8 noticia__bordePrincipal bordeAparece">
+                <section class="container-fluid">
+                    <div class="ordenado"> 
+                        <a href="pages/MUNDO.html" class="colocarAbajo"><h3 class="noticia__titulo noticia__Centrado">Tensión entre China y Taiwán luego de que portaviones chino entrara en el mar de China Meridional</h3></a>
+                        <p class="d-none d-md-block"> El sábado, un portaviones chino entró por primera vez en el mar de China Meridional. 
+                        Este evento aumentó la tensión entre China y Taiwán por sus actividades militares, 
+                        y en el siguiente video te damos los detalles. 
+                        Taiwán condenó una “seria provocación” de China después de que sus aviones 
+                        militares penetraran la zona de defensa aérea de la isla durante dos días.  </p>
+                        <img src="https://3.bp.blogspot.com/-sfRI9ApWpsU/XacPsMSebvI/AAAAAAADCBU/KFwTRcwKcqcdlYk_pN29X_sjaXvh2UznACLcBGAsYHQ/s1600/zDRASS%2BSubmarine%2BRescue%2BSystem%2B3D-2.jpg" class="ajustaImagen colocarArriba" alt="portavion chino">
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
                 <div class="row">
-                    <div class="col-12 noticia__bordePrincipal noticia__bordeB">
+                    <div class="col-12 noticia__bordePrincipal noticia__bordeAbajo bordeAparece">
                         <section  class="container-fluid">                    <!-- NOTICIA IZQUIERDA-->                
                             <img src="https://okdiario.com/img/2021/04/30/estampida-en-israel.jpg" class="ajustaImagen" alt="estampida">
                             <a href="pages/TECNOLOGIA.html"><h4 class="noticia__Centrado  noticia__espacioArriba">Docenas de muertos en evento religioso en Israel</h4></a>  
                         </section>
                     </div>
              
-                    <div class="col-12 noticia__bordePrincipal">
+                    <div class="col-12 noticia__bordePrincipal bordeAparece">
                         <section  class="container-fluid">                                         
                             <img src="https://www.techidence.com/wp-content/uploads/2020/06/ps5.jpg" class="ajustaImagen" alt="Ps5">
                             <a href="pages/TECNOLOGIA.html"><h4 class="noticia__Centrado noticia__espacioArriba">Sony lleva vendidas 7,8 millones de PlayStation 5</h4></a> 
@@ -184,19 +185,19 @@
     </div>
 
     
-    <div class="clearfix noticia noticia__borde">                        <!-- noticia imagen de costado-->
+    <div class="clearfix noticia noticia__borde noticia__espacioAbajo">                        <!-- noticia imagen de costado-->
         <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RH3NT2HXDRFM3LWHEGFZKBDIUI.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid " alt="soja">
         <a href="pages/ECONOMIA.html"><h4 class="noticia__titulo noticia__Centrado noticia__espacioAbajo">El precio internacional de la soja cayó más de un 8% y se aleja del pico de USD 600 por tonelada que se registró en el último mes</h4></a>
-        <p>En el mercado de Chicago, la posición julio bajó USD 43,63 y cotizó a USD 488,60 la tonelada, como consecuencia de las mejoras climáticas en los Estados Unidos. También hubo fuertes bajas en maíz y trigo
+        <p class="d-none d-md-block">En el mercado de Chicago, la posición julio bajó USD 43,63 y cotizó a USD 488,60 la tonelada, como consecuencia de las mejoras climáticas en los Estados Unidos. También hubo fuertes bajas en maíz y trigo
         </p>
-        <p>Luego de superar los 600 dólares la tonelada el pasado 12 de mayo, el precio internacional de la soja registró hoy en el mercado de Chicago una baja de USD 43,63 en los contratos con vencimiento en julio próximo y cotizó a USD 488,60 la tonelada, un 8,2% menos que en la rueda de negocios de ayer.
+        <p class="d-none d-md-block">Luego de superar los 600 dólares la tonelada el pasado 12 de mayo, el precio internacional de la soja registró hoy en el mercado de Chicago una baja de USD 43,63 en los contratos con vencimiento en julio próximo y cotizó a USD 488,60 la tonelada, un 8,2% menos que en la rueda de negocios de ayer.
         </p>
-        <p>Según los operadores del mercado, el precio de la soja sufre los efectos de la mejora climática en los Estados Unidos, donde se esperan lluvias en el Medio Oeste productivo del país del norte y temperaturas bajas, que ayudarían a mejorar la condición de la campaña 2021/22.
+        <p class="d-none d-md-block">Según los operadores del mercado, el precio de la soja sufre los efectos de la mejora climática en los Estados Unidos, donde se esperan lluvias en el Medio Oeste productivo del país del norte y temperaturas bajas, que ayudarían a mejorar la condición de la campaña 2021/22.
         </p>
-        <p>Una situación que además impulsó la caída de casi 16 dólares del maíz, cuyo contrato con vencimiento en julio cotizó a USD 249,20 la tonelada. En el rubro de los cereales, por último, el trigo cayó USD 8,73 y la posición julio se ubicó en USD 234,79 la tonelada, por los efectos de las bajas del maíz y la soja, y también por un aumento en las exportaciones de trigo de Rusia, Ucrania y Kazajstán en 2021/22 que mostró una encuesta de Reuters.
+        <p class="d-none d-md-block">Una situación que además impulsó la caída de casi 16 dólares del maíz, cuyo contrato con vencimiento en julio cotizó a USD 249,20 la tonelada. En el rubro de los cereales, por último, el trigo cayó USD 8,73 y la posición julio se ubicó en USD 234,79 la tonelada, por los efectos de las bajas del maíz y la soja, y también por un aumento en las exportaciones de trigo de Rusia, Ucrania y Kazajstán en 2021/22 que mostró una encuesta de Reuters.
         </p>
     </div>
-    <hr>
+   
      
     <div class="contenedorNoticia">
         <div class="row">                                   <!-- 2 noticia -->
@@ -216,7 +217,7 @@
                     <a href="pages/DEPORTE.html">
                         <img class="img-fluid" src="https://i.pinimg.com/originals/73/ab/52/73ab529a5d5bc2dde566364e8d076423.jpg" alt="boca">
                         <div class="contenedorNoticia__incluido">
-                            <h4 class=" noticia__Centrado ">Boca sufrio una nueva baja por coronavirus</h4>
+                            <h4 class="noticia__Centrado">Boca sufrio una nueva baja por coronavirus</h4>
                         </div>
                     </a>
                 </div>
@@ -262,7 +263,7 @@
             </div>
         </div>
     </div>
-    <hr>
+  
 
     <div class="contenedorNoticia">       <!-- 3 noticia -->
         <div class="row">                                   

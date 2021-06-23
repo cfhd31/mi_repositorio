@@ -2,7 +2,8 @@
   &__borde {
     max-width: 100%;
     height: auto;
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     border-bottom: 1px solid #d5d5d5;
     min-height: 188px;
     padding: 10px 0;
@@ -14,16 +15,16 @@
     min-height: 188px;
     padding: 10px 0;
   }
-  &__bordeI {
+  &__bordeIzquierda {
   border-left: 1px solid #dee2e6;
   }
-  &__bordeD {
+  &__bordeDerecha {
     border-right: 1px solid #dee2e6;
   }
-  &__bordeB {
+  &__bordeAbajo {
     border-bottom: 1px solid #d5d5d5;
   }
-  &__bordeT {
+  &__bordeArriba {
     border-top: 1px solid #d5d5d5;
   }
   &__titulo {
@@ -39,7 +40,8 @@
     text-align: left;
     font-weight: 600;
     line-height: 1.17;
-    font-size: revert;
+    font-size: larger;
+    margin-bottom: 10px;
   }
   &__espacioArriba {
     margin-top: 10px;
@@ -47,6 +49,7 @@
   &__espacioAbajo {
     margin-bottom: 10px;
   }
+  
   a{
     color: rgb(20, 0, 77);
     text-decoration:menu;
@@ -59,10 +62,16 @@
       
   }
   p{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    padding: 0 30px 0 0;
+    padding: 0 0 0 0;
+  }
+  .bordeDesaparece
+  {
+    margin-top: 5px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 5px;
   }
 }
 
@@ -111,21 +120,31 @@
     lighting-color: white;
     h1 {
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 22px;
     }
     h5 {
       font-weight: 400;
-      font-size: 1.4rem;
-      }
+      font-size: 18px;
+    }
     .btn{
       background-color: #eae6e68f;
       padding: 5px 20px;
+      font-size: 16px;
       &:hover{
         background-color: #6464648f;
         padding: 3px 20px;
         color: white;
       }
     }
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 27%;
+    bottom: 1.25rem;
+    left: 27%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
   }
   .imagenes2{
     width: 100%;
@@ -158,6 +177,7 @@
   }
   .esp{
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   a{
     color: rgb(20, 0, 77);
@@ -421,6 +441,35 @@ aside {
       height: 60px;
       min-width: 60px;
       width: 60px;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .ordenado {
+    display: grid;
+  }
+
+  .noticia {
+    .bordeDesaparece {
+      margin-top: 5px;
+      border-bottom: 0px solid #d5d5d5;
+      margin-bottom: 5px;
+    }
+    .bordeAparece {
+      margin-top: 5px;
+      border-bottom: 1px solid #d5d5d5;
+      margin-bottom: 5px;
+    }
+    .colocarAbajo {
+      order: 2;
+      font-size: revert;
+      margin-top: 10px;
+    }
+    .colocarArriba {
+      order: 1;
     }
   }
 }
